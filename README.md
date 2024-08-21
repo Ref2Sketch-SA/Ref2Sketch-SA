@@ -1,16 +1,59 @@
-## Hi there 👋
+## Ref2Sketch-SA
 
-<!--
-**Ref2Sketch-SA/Ref2Sketch-SA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is official implementation of the paper **"Ref2Sketch-SA"**
 
-Here are some ideas to get you started:
+**Anonymous submission**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Demos
+
+###  Examples of Ref2Sketch-SA on in-the-wild images
+
+<p align="center">
+  <img src="ref2sketch-SA/figures/sub_fig3.jpg">
+</p>
+
+###  Examples of Ref2Sketch-SA on Flickr-Faces-HQ Datase
+
+<p align="center">
+  <img src="ref2sketch-SA/figures/sub_fig4.jp">
+</p>
+
+###  Illustration of variable sketch outputs generated from the same content and reference style by adjusting the β parameter.
+
+<p align="center">
+  <img src="ref2sketch-SA/figures/fig4.jp">
+</p>
+
+###  Qualitative ablation study results
+
+<p align="center">
+  <img src="ref2sketch-SA/figures/sub_fig0.jp">
+</p>
+
+
+### Comparison with Previous Works
+
+<p align="center">
+  <img src="ref2sketch-SA/figures/fig5.jp">
+  <img src="ref2sketch-SA/figures/sub_fig1.jp">
+</p>
+
+
+## Download
+Follow [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter?tab=readme-ov-file#download-models) to download pre-trained checkpoints from [here](https://huggingface.co/h94/IP-Adapter).
+
+```
+git clone https://github.com/Ref2Sketch-SA/Ref2Sketch-SA.git
+cd Ref2Sketch-SA
+
+# download the models
+git lfs install
+git clone https://huggingface.co/h94/IP-Adapter
+mv IP-Adapter/models models
+mv IP-Adapter/sdxl_models sdxl_models
+```
+
+
+---
+## Acknowledgements
+Ref2Sketch-SA is highly built on [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter) and [InstantStyle](https://github.com/InstantStyle/InstantStyle). Additionally, we also acknowledge [StyleID](https://github.com/jiwoogit/StyleID) for Inversion processes.
