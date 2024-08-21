@@ -35,11 +35,12 @@ This is official implementation of the paper **"Ref2Sketch-SA"**
 
 <p align="center">
   <img src="figures/fig5.jpg">
+  <img src="figures/sub_fig2.jpg">
   <img src="figures/sub_fig1.jpg">
 </p>
 
 
-## Download
+## Preparation Download
 Follow [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter?tab=readme-ov-file#download-models) to download pre-trained checkpoints from [here](https://huggingface.co/h94/IP-Adapter).
 
 ```
@@ -52,7 +53,9 @@ git clone https://huggingface.co/h94/IP-Adapter
 mv IP-Adapter/models models
 mv IP-Adapter/sdxl_models sdxl_models
 ```
+## Code 
 
+Code release is coming soon!
 
 ---
 ## Acknowledgements
