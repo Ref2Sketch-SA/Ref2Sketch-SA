@@ -9,33 +9,33 @@ This is official implementation of the paper **"Ref2Sketch-SA"**
 ###  Examples of Ref2Sketch-SA on in-the-wild images
 
 <p align="center">
-  <img src="ref2sketch-SA/figures/sub_fig3.jpg">
+  <img src="figures/sub_fig3.jpg">
 </p>
 
 ###  Examples of Ref2Sketch-SA on Flickr-Faces-HQ Datase
 
 <p align="center">
-  <img src="ref2sketch-SA/figures/sub_fig4.jp">
+  <img src="figures/sub_fig4.jp">
 </p>
 
 ###  Illustration of variable sketch outputs generated from the same content and reference style by adjusting the β parameter.
 
 <p align="center">
-  <img src="ref2sketch-SA/figures/fig4.jp">
+  <img src="figures/fig4.jp">
 </p>
 
 ###  Qualitative ablation study results
 
 <p align="center">
-  <img src="ref2sketch-SA/figures/sub_fig0.jp">
+  <img src="figures/sub_fig0.jp">
 </p>
 
 
 ### Comparison with Previous Works
 
 <p align="center">
-  <img src="ref2sketch-SA/figures/fig5.jp">
-  <img src="ref2sketch-SA/figures/sub_fig1.jp">
+  <img src="figures/fig5.jp">
+  <img src="figures/sub_fig1.jp">
 </p>
 
 
